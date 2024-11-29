@@ -1,10 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-    "./src/components/**/*.{js,jsx,ts,tsx}",
-  ],
-  
+  darkMode: 'class', // or 'selector' if you want a custom selector instead of the `class` strategy
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'], 
   theme: {
     extend: {
       colors: {
@@ -25,8 +22,8 @@ export default {
         darkDesaturatedBlueCardBG: 'hsl(228, 28%, 20%)',
         desaturatedBlueText: 'hsl(228, 34%, 66%)',
         whiteText: 'hsl(0, 0%, 100%)'
-      }
-    }
+      },
+    }, 
   },
   plugins: [],
 }
