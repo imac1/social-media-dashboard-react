@@ -1,4 +1,4 @@
-const data = {
+ export const data = {
   platforms: [
     { facebook: { name: "nathanf", followers: 1987, difference: 12 } },
     { twitter: { name: "nathanf", followers: 1044, difference: 99 } },

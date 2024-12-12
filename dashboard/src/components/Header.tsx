@@ -1,6 +1,4 @@
 import React, {useState, useEffect} from "react";
-
-// import { toggleTheme } from "@utils/themeToggle";
 import { toggleTheme } from "../utils/themeToggle";
 
 
@@ -23,9 +21,9 @@ export default function Header() {
 
   return (
     <>
-      <h1 className="text-white text-3xl dark:text-red-500  !important">Social Media Dashboard</h1>
-      <div className="flex items-center justify-between">
-        <p className="text-slate-400 font-semi-bold">
+      <h1 className="text-white text-3xl font-bold">Social Media Dashboard</h1>
+      <div className="flex items-center justify-between [&_*]:dark:text-white">
+        <p className="text-slate-400 font-semi-bold ">
           Total followers 23,400
         </p>
         <div className="flex gap-2 items-center justify-center">

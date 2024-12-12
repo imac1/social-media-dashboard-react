@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.css';
 import Header from '@components/Header';
+import Container from '@components/Container';
 
 
 
@@ -10,6 +11,8 @@ function App() {
       <div className="container border max-w-5xl p-10">
       
 <Header></Header>
+<Container></Container>
+
       </div>
   
       
