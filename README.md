@@ -1,6 +1,6 @@
 # Social Media Dashboard
 
-Live at [Social Media Dashboard](https://imac1.github.io/social-media-dashboard)
+Live at [Social Media Dashboard](https://imac1.github.io/social-media-dashboard-react)
 
 ## Story
 
